@@ -7,5 +7,5 @@ ZombieCats chase both cats and mice and are displayed as a red dot when not chas
 ZombieMice are are dead mice that search out regular mice eating them. If they are eaten by a ZombieCat they turn into a regular Cat and if eaten by a regular Cat it will turn into a ZombieCat
 
 Running the program requires this format:
-java Simulator Mice Cats ZombieCats ZombieMice rounds seed | java -jar Plotter.jar milliseconds
+`java Simulator Mice Cats ZombieCats ZombieMice rounds seed | java -jar Plotter.jar milliseconds`
 Mice, Cats, ZombieCats, and ZombieMice are all integers, representing the starting number of them on the plot. 
